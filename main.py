@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-VERIFY_TOKEN = "EAAHpmSnouBYBO0zARTgFP88OkZAAI2fEPIWfcteAZAZA8VVviQ47OpUEzsRDmqcMvObRaEKfjcGzbH8XFZCfGFUnE91xbJpRDRlFVuYoBvGZChwBVSZCrxOgqgAAqgvNfpJ19mqDDWdAIrOSJ3npkbooiT1xBmuTdGUWRUKK5nwBwzhXVJZCFfK8vNRQYAuZBHC2K00nXUhoSCFo5OLSKbSUVRu9Ny0TV0gZD"  # Você pode mudar esse token como quiser
+VERIFY_TOKEN = "ghp_Rl0kksi3LwxX3h8HoZqL46LhOEsUc3CjgYQ"  # Você pode mudar esse token como quiser
 
 @app.route("/webhook", methods=["GET", "POST"])
 def webhook():
